@@ -1,4 +1,5 @@
 basho_bench
 deps
+tests
 ebin/*.app
 ebin/*.beam
