@@ -1,0 +1,4 @@
+basho_bench
+deps
+ebin/*.app
+ebin/*.beam
