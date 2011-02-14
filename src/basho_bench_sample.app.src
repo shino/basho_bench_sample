@@ -1,0 +1,12 @@
+{application, basho_bench_sample,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { basho_bench_sample_app, []}},
+  {env, []}
+ ]}.
