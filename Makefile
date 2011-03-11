@@ -1,6 +1,6 @@
 .PHONY: deps
 
-all: deps compile
+all: compile
 	make -C deps/basho_bench all
 	cp deps/basho_bench/basho_bench .
 
